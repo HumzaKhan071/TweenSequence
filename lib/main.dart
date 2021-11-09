@@ -2,6 +2,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/lastpractice.dart';
 import 'package:flutter_application_1/secondpractice.dart';
 
 void main() {
@@ -54,7 +55,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: SecondPractice(),
+      home: LastPractice(),
       // home: Scaffold(
       //   body: Center(
       //     child: Container(
